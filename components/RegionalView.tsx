@@ -73,7 +73,7 @@ const RegionalView: React.FC = () => {
             </div>
             <h3 className="text-4xl font-black">Investimento Regionalizado</h3>
             <p className="text-blue-100 max-w-xl text-sm leading-relaxed">
-              Descubra como os R$ 3,92 Bilhões do PLOA 2026 são aplicados em cada território para reduzir as desigualdades sociais de Fortaleza.
+              Descubra como os R$ 3,92 Bilhões da LOA 2026 são aplicados em cada território para reduzir as desigualdades sociais de Fortaleza.
             </p>
           </div>
           <div className="bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-3xl">
@@ -259,7 +259,7 @@ const RegionalView: React.FC = () => {
             <div className="p-8 bg-gray-50 border-t border-gray-100 flex flex-col md:flex-row gap-4 justify-between items-center">
               <div className="flex items-center gap-3">
                 <Info size={20} className="text-gray-400" />
-                <p className="text-xs text-gray-500">Dados baseados no PLOA 2026 - Versão Preliminar de Outubro/2025</p>
+                <p className="text-xs text-gray-500">Dados baseados na LOA 2026 - Lei aprovada e sancionada</p>
               </div>
               <div className="flex gap-3 w-full md:w-auto">
                 <button className="flex-1 md:flex-none px-6 py-3 bg-gray-900 text-white rounded-xl text-xs font-black uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-gray-800 transition-colors">

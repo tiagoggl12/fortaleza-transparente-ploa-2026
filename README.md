@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏛️ Fortaleza Transparente - PLOA 2026
+# 🏛️ Fortaleza Transparente - LOA 2026
 
 **Uma plataforma interativa de transparência pública para visualização do Orçamento Anual de Fortaleza**
 
@@ -17,7 +17,7 @@
 
 ## 📋 Sobre o Projeto
 
-O **Fortaleza Transparente - PLOA 2026** é um aplicativo web interativo que torna o Orçamento Anual de Fortaleza acessível a todos os cidadãos. Através de visualizações claras e intuitivas, qualquer pessoa pode entender como os recursos públicos são distribuídos e aplicados.
+O **Fortaleza Transparente - LOA 2026** é um aplicativo web interativo que torna o Orçamento Anual de Fortaleza acessível a todos os cidadãos. Através de visualizações claras e intuitivas, qualquer pessoa pode entender como os recursos públicos são distribuídos e aplicados. Os dados apresentados são da Lei Orçamentária Anual (LOA) já aprovada e sancionada.
 
 ### 🎯 Objetivos
 

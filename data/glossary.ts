@@ -152,35 +152,35 @@ export const GLOSSARIO_CONCEITOS: ConceitoOrçamentário[] = [
 
   // ===== CONCEITOS GERAIS =====
   {
-    id: 'ploa',
-    term: 'PLOA - Projeto de Lei Orçamentária Anual',
+    id: 'loa',
+    term: 'LOA - Lei Orçamentária Anual',
     essencial: 'O plano de gastos de Fortaleza para 2026',
-    detalhado: 'É o documento que detalha quanto dinheiro a prefeitura espera arrecadar e como planeja gastar durante o ano inteiro. É elaborado pelo prefeito, discutido na Câmara Municipal e votado pelos vereadores. Depois de aprovado, vira Lei (LOA) e passa a valer para o ano seguinte. É a constituição financeira da cidade para 2026.',
+    detalhado: 'É a Lei que detalha quanto dinheiro a prefeitura vai arrecadar e como vai gastar durante o ano de 2026. Foi aprovada pela Câmara Municipal e sancionada pelo prefeito. É a constituição financeira da cidade para 2026 - tudo o que a prefeitura gasta deve estar previsto nesta Lei.',
     exemplos: [
-      'Previsão: "Vamos arrecadar R$ 15 bilhões"',
-      'Planejamento: "Vamos gastar R$ 3,8 bilhões em educação"',
-      'Detalhamento: "Cada escola vai receber R$ 50 mil para reforma"'
+      'Previsão: "Arrecadar R$ 15,99 bilhões"',
+      'Planejamento: "Gastar R$ 3,83 bilhões em educação"',
+      'Detalhamento: "Cada escola tem verba específica para reforma"'
     ],
-    impactoReal: 'Define se sua escola vai ser reformada, se vai ter novo hospital no bairro, quanto os professores vão ganhar.',
+    impactoReal: 'Define se sua escola vai ser reformada, se vai ter novo hospital no bairro, quanto os servidores vão ganhar.',
     categoria: 'gerais',
-    relacionadoCom: ['loa', 'ldo', 'ppa'],
+    relacionadoCom: ['ldo', 'ppa'],
     tags: ['planejamento', 'lei', 'anual'],
     complexidade: 'essencial'
   },
   {
-    id: 'loa',
-    term: 'LOA - Lei Orçamentária Anual',
-    essencial: 'O plano de gastos aprovado pelos vereadores',
-    detalhado: 'É o PLOA depois que a Câmara Municipal aprova e o prefeito sanciona. Transforma-se em Lei, ou seja, passa a ser obrigatório. A partir daí, a prefeitura só pode gastar o que está escrito na LOA. Qualquer mudança precisa de nova autorização da Câmara.',
+    id: 'ploa',
+    term: 'PLOA - Projeto de Lei Orçamentária Anual',
+    essencial: 'O projeto antes de virar Lei',
+    detalhado: 'É o documento elaborado pelo prefeito antes da votação na Câmara. Depois de discutido e aprovado pelos vereadores, o PLOA transforma-se em LOA (Lei). Este dashboard mostra os dados da LOA 2026, já aprovada e em vigor.',
     exemplos: [
-      'Depois de aprovada: "Está na lei, tem que cumprir"',
-      'Obrigatoriedade: "Não pode gastar fora do planejado"',
-      'Controle: "Vereadores fiscalizam se está sendo cumprida"'
+      'Fase de projeto: "Prefeito envia PLOA para a Câmara"',
+      'Discussão: "Vereadores propõem mudanças"',
+      'Aprovação: "Vira LOA e passa a valer"'
     ],
-    impactoReal: 'Garante que o dinheiro público seja usado como prometido, sem desvios ou gastos não autorizados.',
+    impactoReal: 'É a fase de discussão onde a sociedade pode propor alterações antes da aprovação final.',
     categoria: 'gerais',
-    relacionadoCom: ['ploa', 'camara-municipal'],
-    tags: ['lei', 'obrigatorio', 'controle'],
+    relacionadoCom: ['loa', 'camara-municipal'],
+    tags: ['projeto', 'lei', 'discussao'],
     complexidade: 'detalhado'
   },
   {

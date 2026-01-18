@@ -58,7 +58,7 @@ const App: React.FC = () => {
             </div>
             <div>
               <h1 className="font-bold text-gray-900 leading-none">Fortaleza</h1>
-              <p className="text-xs text-gray-500 mt-1">PLOA 2026</p>
+              <p className="text-xs text-gray-500 mt-1">LOA 2026</p>
             </div>
           </div>
 

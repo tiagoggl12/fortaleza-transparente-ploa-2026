@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
     // Base path for GitHub Pages
-    base: mode === 'production' ? '/fortaleza-transparente-ploa-2026/' : '/',
+    base: mode === 'production' ? '/fortaleza-transparente-loa-2026/' : '/',
     server: {
       port: 3000,
       host: '0.0.0.0',

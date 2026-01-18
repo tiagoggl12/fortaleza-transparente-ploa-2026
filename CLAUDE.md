@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Fortaleza Transparente - PLOA 2026 is a React-based civic tech dashboard visualizing Fortaleza's 2026 Annual Budget Law (Projeto de Lei Orçamentária Anual). The app helps citizens understand public fund allocation through interactive charts and educational content.
+Fortaleza Transparente - LOA 2026 is a React-based civic tech dashboard visualizing Fortaleza's 2026 Annual Budget Law (Lei Orçamentária Anual). The app helps citizens understand public fund allocation through interactive charts and educational content.
 
 **Tech Stack:** React 19, TypeScript, Vite 6, Recharts (charts), Lucide React (icons), Tailwind CSS (via CDN)
 
